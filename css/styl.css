@@ -1,5 +1,16 @@
 body {
     background-color: #2F3336;
+    font-size: 0.9rem;
+    font-family: "Roboto Light", sans-serif;
+}
+
+.title {
+    text-align: center;
+}
+
+.title p {
+    font-size: 1.2em;
+    color: #FFFFFF;
 }
 .wrapper {
     display: flex;
