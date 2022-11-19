@@ -43,8 +43,17 @@ body {
 }
 
 @media only screen and (max-width: 1280px) {
+    body {
+        font-size: 1.3rem;
+    }
+
+    .title p {
+        font-size: 1.7rem;
+    }
+
     .row {
         flex-direction: column;
+
     }
 
     .grid-column {
