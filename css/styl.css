@@ -16,8 +16,8 @@ body {
 .wrapper {
     display: flex;
     flex-direction: column;
-
 }
+
 .row {
     display: flex;
     flex-direction: row;
@@ -29,7 +29,10 @@ body {
     margin: 10px;
     height: auto;
     text-align: center;
+
 }
+
+
 .grid-column img {
     width: 90%;
     height: auto;
@@ -38,3 +41,18 @@ body {
 .caption {
     color: yellowgreen;
 }
+
+@media only screen and (max-width: 1280px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .grid-column {
+        flex: 100%;
+    }
+
+    .grid-column img {
+        width: 100%;
+    }
+}
+
