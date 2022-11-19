@@ -12,6 +12,7 @@ body {
     font-size: 1.2em;
     color: #FFFFFF;
 }
+
 .wrapper {
     display: flex;
     flex-direction: column;
@@ -33,6 +34,7 @@ body {
     width: 90%;
     height: auto;
 }
+
 .caption {
     color: yellowgreen;
 }
